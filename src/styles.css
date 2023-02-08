@@ -5,6 +5,31 @@ body{
     color: #093aec;
 }
 
+.fundo-video {
+    position: absolute;
+    background-color: rgb(214, 214, 239);
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.fundo-video .video {
+    height: 100vh;
+    width: 100vw;
+}
+
+.fundo-video::after {
+    content: '';
+    background-color: #346fe6;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #749fca 0%, rgba(174, 167, 167, 0.85) 49%, #749fca 100%);
+}
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -22,7 +47,7 @@ body{
     margin: 40px;
     font-size: 25px;
     color: #093aec;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .cabecalho .logo {
@@ -38,14 +63,14 @@ body{
 .cabecalho nav li a {
     font-weight: bold;
     color: #093aec;
-    font-size: 25px;
-    padding: 10px 40px;
+    font-size: 20px;
+    padding: 10px 30px;
     border-radius: 50px;
     transition: 0.3s;
 }
 
 .cabecalho nav li a:hover {
-    background-color: #1f11e6;
+    background-color: #093aec;
     color: #fff;
 }
 
@@ -56,7 +81,7 @@ body{
 
 .foto-principal {
     width: 400px;
-    padding-right: 80px;
+    padding-right: 90px;
 }
 
 .botao-trailer {
@@ -71,5 +96,5 @@ body{
 .rodape {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 30px;
+    font-size: 30px;
 }
