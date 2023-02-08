@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Poppins:wght@100;300;500&display=swap');
+
+body{   
+    font-family: 'Poppins', sans-serif;
+    color: #093aec;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.cabecalho-logo {
+    display: flex;
+    align-items: center;
+}
+
+.texto-logo {
+    margin: 40px;
+    font-size: 25px;
+    color: #093aec;
+    font-weight: bold;
+}
+
+.cabecalho .logo {
+    width: 265px;
+}
+
+.cabecalho .menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.cabecalho nav li a {
+    font-weight: bold;
+    color: #093aec;
+    font-size: 25px;
+    padding: 10px 40px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.cabecalho nav li a:hover {
+    background-color: #1f11e6;
+    color: #fff;
+}
+
+.info {
+    display: flex;
+    margin: 150px;
+}
+
+.foto-principal {
+    width: 400px;
+    padding-right: 80px;
+}
+
+.botao-trailer {
+    position: absolute;
+    cursor: pointer;
+}
+
+.botao-trailer:hover {
+    opacity: -1;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
