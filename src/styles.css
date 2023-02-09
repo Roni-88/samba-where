@@ -2,7 +2,7 @@
 
 body{   
     font-family: 'Poppins', sans-serif;
-    color: #093aec;
+    color: #0697f2;
 }
 
 .fundo-video {
@@ -46,7 +46,11 @@ body{
 .texto-logo {
     margin: 40px;
     font-size: 25px;
-    color: #093aec;
+    background-color: #c9d2e4;
+    color: #0697f2;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
     font-weight: bolder;
 }
 
@@ -62,16 +66,19 @@ body{
 
 .cabecalho nav li a {
     font-weight: bold;
-    color: #093aec;
+    margin-left: 15px;
+    background-color: #0697f2;
+    color: #c9d2e4;
     font-size: 20px;
-    padding: 10px 30px;
+    padding: 8px 20px;
     border-radius: 50px;
     transition: 0.3s;
 }
 
 .cabecalho nav li a:hover {
-    background-color: #093aec;
+    background-color: #009dff;
     color: #fff;
+    transition: 0.2s ease-in-out;
 }
 
 .info {
@@ -93,10 +100,10 @@ body{
     font-size: 30px;
     font-weight: bolder;
     background-color: #c9d2e4;
-    color: #093aec;
+    color: #0697f2;
     border: none;
     border-radius: 15px;
-    box-shadow: #093aec 2px 2px 5px;
+    box-shadow: #0697f2 2px 2px 5px;
 }
 
 .botao-avancar {
@@ -108,10 +115,10 @@ body{
     font-size: 30px;
     font-weight: bolder;
     background-color: #c9d2e4;
-    color: #093aec;
+    color: #0697f2;
     border: none;
     border-radius: 15px;
-    box-shadow: #093aec -2px 2px 5px;
+    box-shadow: #0697f2 -2px 2px 5px;
 }
 
 .botao-voltar:hover, .botao-avancar:hover {
@@ -133,16 +140,23 @@ body{
     padding-top: 30px;
 }
 
+.texto-rodape {
+    background-color: #c9d2e4;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
 .fa-brands {
     border-radius: 50%;
     margin-right: 25px;
     color: #c9d2e4;
-    background-color: #093aec;
+    background-color: #0697f2;
 }
 
 .fa-brands:hover {
-    background-color: #c9d2e4;
-    color: #093aec;
+    background-color: #009dff;
+    color: #fff;
     transition: 0.2s ease-in-out;
 }
 
