@@ -80,17 +80,49 @@ body{
 }
 
 .foto-principal {
-    width: 400px;
-    padding-right: 90px;
+    width: 300px;
 }
 
-.botao-trailer {
-    position: absolute;
+.botao-voltar {
+    margin-right: 15px;
     cursor: pointer;
+    width: 10px;
+    height: 60px;
+    padding: 0 25px 0 8px;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: #c9d2e4;
+    color: #093aec;
+    border: none;
+    border-radius: 15px;
+    box-shadow: #093aec 2px 2px 5px;
 }
 
-.botao-trailer:hover {
-    opacity: -1;
+.botao-avancar {
+    margin-left: 15px;
+    cursor: pointer;
+    width: 10px;
+    height: 60px;
+    padding: 0 23px 0 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: #c9d2e4;
+    color: #093aec;
+    border: none;
+    border-radius: 15px;
+    box-shadow: #093aec -2px 2px 5px;
+}
+
+.botao-voltar:hover, .botao-avancar:hover {
+    transform: scale(1.1);
+}
+
+.texto-principal {
+    margin-left: 80px;
+    background-color: #c9d2e4;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .rodape {
