@@ -76,7 +76,8 @@ body{
 
 .info {
     display: flex;
-    margin: 150px;
+    margin: 100px;
+    align-items: center;
 }
 
 .foto-principal {
@@ -129,4 +130,30 @@ body{
     display: flex;
     justify-content: space-around;
     font-size: 30px;
+    padding-top: 30px;
+}
+
+.fa-brands {
+    border-radius: 50%;
+    margin-right: 25px;
+    color: #c9d2e4;
+    background-color: #093aec;
+}
+
+.fa-brands:hover {
+    background-color: #c9d2e4;
+    color: #093aec;
+    transition: 0.2s ease-in-out;
+}
+
+.fa-facebook-f {
+    padding: 10px 15px;
+}
+
+.fa-twitter {
+    padding: 10px 10px;
+}
+
+.fa-instagram {
+    padding: 10px 12px;
 }
